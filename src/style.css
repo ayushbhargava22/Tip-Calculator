@@ -12,7 +12,7 @@
   font-family: "Space Mono", monospace;
 }
 body {
-  background-color: hsl(185, 41%, 84%);%
+  background-color: hsl(185, 41%, 84%);
 }
 .container {
   width: 70%;
@@ -23,122 +23,135 @@ body {
   letter-spacing: 0.5rem;
 }
 .main-content {
-   width: 100%;
-   margin-top: 30px;
-   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-   background-color: white;
-   border-radius: 20px;
-   display: flex;
+  width: 100%;
+  margin-top: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
 }
 .input-section {
-   margin-left: 20px;
-   padding-top: 20px;
-   padding-bottom: 20px;
-   width: 50%;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 50%;
 }
-.bill-input ,.people{
-   display: flex;
-   flex-direction: column;
+.bill-input,
+.people {
+  display: flex;
+  flex-direction: column;
 }
-.bill,.tip-heading,.people-number {
-   font-size: 14px;
-   margin-bottom: 15px;
-   font-weight: 700;
-   color: hsl(186, 14%, 43%);
+.bill,
+.tip-heading,
+.people-number {
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: hsl(186, 14%, 43%);
 }
-.input-image,.people-input {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   width: 83%;
+.input-image,
+.people-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 83%;
 }
-.input-image,.bill-amount,.person-input,.people-input {
-   height: 40px;
-   border: none;
-   background-color: hsl(189, 41%, 97%);
-   border-radius: 5px;
-   cursor: pointer;
-   padding: 0 10px;
+.input-image,
+.bill-amount,
+.person-input,
+.people-input {
+  height: 40px;
+  border: none;
+  background-color: hsl(189, 41%, 97%);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 10px;
 }
-.bill-amount,.person-input {
-   text-align: right;
+.bill-amount,
+.person-input {
+  text-align: right;
 }
 .tip {
-   margin-top: 30px;
-   margin-bottom: 25px;
+  margin-top: 30px;
+  margin-bottom: 25px;
 }
 .tip-selection {
-   margin-top: 20px;
-   display: flex;
-   flex-wrap: wrap;
-   padding-left: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
 }
 .tip-amount {
-   margin-right: 25px;
-   height: 45px;
-   text-align: center;
-   justify-content: center;
-   display: flex;
-   border-radius: 5px;
-   margin-bottom: 10px;
-   border: 1px solid  hsl(183, 100%, 15%);
-   background-color:  hsl(183, 100%, 15%);
-   color: white;
-   align-items: center;
-   flex: 0 0 24.333333%;
+  margin-right: 25px;
+  height: 45px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid hsl(183, 100%, 15%);
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  align-items: center;
+  flex: 0 0 24.333333%;
 }
 .output-section {
-   background-color: hsl(183, 100%, 15%);
-   color: white;
-   border-radius: 20px;
-   width: 50%;
-   margin-block: 35px;
-   margin-right: 35px;
-   padding-block: 50px 20px;
-   padding-inline: 20px;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  border-radius: 20px;
+  width: 50%;
+  margin-block: 35px;
+  margin-right: 35px;
+  padding-block: 50px 20px;
+  padding-inline: 20px;
 }
 .desc {
-   display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .amount {
-   width: 80%;
-   margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 .heading-output span {
-   opacity: 0.5;
-   padding-top: 20px;
+  opacity: 0.5;
+  padding-top: 20px;
 }
 .second {
-   margin-top: 20px;
+  margin-top: 20px;
 }
-.amount-value-person,.tip-value-person {
-   opacity: 0.5;
-   font-weight: 700;
-   font-size: 28px;
+.amount-value-person,
+.tip-value-person {
+  opacity: 0.5;
+  font-weight: 700;
+  font-size: 28px;
 }
 .reset {
-   margin-top: 120px;
-   justify-content: center;
-   display: flex;
-   align-items: center;
+  margin-top: 120px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 .reset-btn {
-   width: 85%;
-   height: 50px;
-   background-color: hsl(184, 14%, 56%);
-   color: hsl(183, 100%, 15%);
-   font-weight: 700;
-   border: 1px solid hsl(184, 14%, 56%);
-   border-radius: 5px;
+  width: 85%;
+  height: 50px;
+  background-color: hsl(184, 14%, 56%);
+  color: hsl(183, 100%, 15%);
+  font-weight: 700;
+  border: 1px solid hsl(184, 14%, 56%);
+  border-radius: 5px;
 }
 .submit-btn {
-   margin-top: 20px;
-   width: 87%;
-   height: 40px;
-   background-color: hsl(184, 14%, 56%);
-   color: hsl(183, 100%, 15%);
-   font-weight: 700;
-   border: 1px solid hsl(184, 14%, 56%);
-   border-radius: 5px;
+  margin-top: 20px;
+  width: 87%;
+  height: 40px;
+  background-color: hsl(184, 14%, 56%);
+  color: hsl(183, 100%, 15%);
+  font-weight: 700;
+  border: 1px solid hsl(184, 14%, 56%);
+  border-radius: 5px;
+}
+.tip-amount:hover {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
 }
